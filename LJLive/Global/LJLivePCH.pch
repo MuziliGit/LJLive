@@ -1,0 +1,29 @@
+//
+//  LJLivePCH.pch
+//  LJLive
+//
+//  Created by 李军 on 2017/8/10.
+//  Copyright © 2017年 李军. All rights reserved.
+//
+
+#ifndef LJLivePCH_pch
+#define LJLivePCH_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// 第三方库
+#import <AFNetworking.h>
+#import <MJExtension.h>
+#import <UIImageView+WebCache.h>
+#import "CYLTabBarController.h"
+#import "HUDManager.h"
+#import <SBJson.h>
+#import <IJKMediaFramework/IJKMediaFramework.h>
+
+#import "MacroConst.h" // 宏定义
+
+#import "CommUtls.h" // 常用方法类
+#import "RequestManager.h"
+
+#endif /* LJLivePCH_pch */

@@ -8,8 +8,14 @@
 
 #import "AppDelegate.h"
 
+#import "RootNavigationController.h"
+
+#import "HomeViewController.h"
+#import "PersonalViewController.h"
+
 @interface AppDelegate ()
 
+@property (nonatomic, strong)CYLTabBarController *tabBarController;
 @end
 
 @implementation AppDelegate
@@ -17,9 +23,50 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self setRootViewController];
+    [self.window setRootViewController:self.tabBarController];
+    
     return YES;
 }
 
+#pragma mark --设定rootview
+- (void)setRootViewController {
+    
+    HomeViewController *firstViewController = [[HomeViewController alloc] init];
+    RootNavigationController *firstNavigationController = [[RootNavigationController alloc] initWithRootViewController:firstViewController];
+    
+    PersonalViewController *secondViewController = [[PersonalViewController alloc] init];
+    RootNavigationController *secondNavigationController = [[RootNavigationController alloc]initWithRootViewController:secondViewController];
+    
+    CYLTabBarController *tabBarController = [[CYLTabBarController alloc] init];
+    [self customizeTabBarForController:tabBarController];
+    
+    [tabBarController setViewControllers:@[firstNavigationController,secondNavigationController]];
+    self.tabBarController = tabBarController;
+}
+
+/*
+ *
+ 在`-setViewControllers:`之前设置TabBar的属性，
+ *
+ */
+- (void)customizeTabBarForController:(CYLTabBarController *)tabBarController {
+    
+    NSDictionary *dict1 = @{
+//                            CYLTabBarItemTitle : @"首页",
+                            CYLTabBarItemImage : @"tab_1home",
+                            CYLTabBarItemSelectedImage : @"tab_1home_pre",
+                            };
+    NSDictionary *dict2 = @{
+//                            CYLTabBarItemTitle : @"个人中心",
+                            CYLTabBarItemImage : @"tab_5user",
+                            CYLTabBarItemSelectedImage : @"tab_5user_pre",
+                            };
+    
+    NSArray *tabBarItemsAttributes = @[ dict1, dict2 ];
+    tabBarController.tabBarItemsAttributes = tabBarItemsAttributes;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

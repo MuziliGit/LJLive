@@ -7,15 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3246A5CF305EF47C2465BEDB /* libPods-LJLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C213BA297DE9E17B72382709 /* libPods-LJLive.a */; };
 		F457E01D1F3BED2100A5364B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E01C1F3BED2100A5364B /* main.m */; };
 		F457E0201F3BED2100A5364B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E01F1F3BED2100A5364B /* AppDelegate.m */; };
-		F457E0231F3BED2100A5364B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E0221F3BED2100A5364B /* ViewController.m */; };
 		F457E0261F3BED2100A5364B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F457E0241F3BED2100A5364B /* Main.storyboard */; };
 		F457E0291F3BED2100A5364B /* LJLive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F457E0271F3BED2100A5364B /* LJLive.xcdatamodeld */; };
 		F457E02B1F3BED2100A5364B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F457E02A1F3BED2100A5364B /* Assets.xcassets */; };
 		F457E02E1F3BED2100A5364B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F457E02C1F3BED2100A5364B /* LaunchScreen.storyboard */; };
 		F457E0391F3BED2200A5364B /* LJLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E0381F3BED2200A5364B /* LJLiveTests.m */; };
 		F457E0441F3BED2200A5364B /* LJLiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E0431F3BED2200A5364B /* LJLiveUITests.m */; };
+		F457E0541F3BEFC400A5364B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E0531F3BEFC400A5364B /* BaseViewController.m */; };
+		F457E0591F3BF76F00A5364B /* Function.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F457E0581F3BF76E00A5364B /* Function.rtf */; };
+		F457E0651F3C01A900A5364B /* CTNavigatonBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E0621F3C01A900A5364B /* CTNavigatonBarView.m */; };
+		F457E0661F3C01A900A5364B /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E0641F3C01A900A5364B /* RootNavigationController.m */; };
+		F457E0691F3C02E900A5364B /* CommUtls.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E0681F3C02E900A5364B /* CommUtls.m */; };
+		F457E0771F3C04AB00A5364B /* HUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E06D1F3C04AB00A5364B /* HUDManager.m */; };
+		F457E0781F3C04AB00A5364B /* jg_hud_error.png in Resources */ = {isa = PBXBuildFile; fileRef = F457E06E1F3C04AB00A5364B /* jg_hud_error.png */; };
+		F457E0791F3C04AB00A5364B /* jg_hud_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F457E06F1F3C04AB00A5364B /* jg_hud_error@2x.png */; };
+		F457E07A1F3C04AB00A5364B /* jg_hud_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F457E0701F3C04AB00A5364B /* jg_hud_error@3x.png */; };
+		F457E07B1F3C04AB00A5364B /* jg_hud_success.png in Resources */ = {isa = PBXBuildFile; fileRef = F457E0711F3C04AB00A5364B /* jg_hud_success.png */; };
+		F457E07C1F3C04AB00A5364B /* jg_hud_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F457E0721F3C04AB00A5364B /* jg_hud_success@2x.png */; };
+		F457E07D1F3C04AB00A5364B /* jg_hud_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F457E0731F3C04AB00A5364B /* jg_hud_success@3x.png */; };
+		F457E07E1F3C04AB00A5364B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E0751F3C04AB00A5364B /* MBProgressHUD.m */; };
+		F457E07F1F3C04AB00A5364B /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = F457E0761F3C04AB00A5364B /* read_me.txt */; };
+		F457E0811F3C04CA00A5364B /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = F457E0801F3C04CA00A5364B /* read_me.txt */; };
+		F457E0831F3C04F300A5364B /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = F457E0821F3C04F300A5364B /* read_me.txt */; };
+		F457E0851F3C050E00A5364B /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = F457E0841F3C050E00A5364B /* read_me.txt */; };
+		F457E0871F3C052800A5364B /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = F457E0861F3C052800A5364B /* read_me.txt */; };
+		F457E0D11F42C5F800A5364B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E0CE1F42C5F800A5364B /* HomeViewController.m */; };
+		F457E0D71F42C60100A5364B /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E0D41F42C60100A5364B /* PersonalViewController.m */; };
+		F457E0E51F42CE8700A5364B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F457E0E41F42CE8700A5364B /* AVFoundation.framework */; };
+		F457E0E71F42CE9A00A5364B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F457E0E61F42CE9A00A5364B /* AudioToolbox.framework */; };
+		F457E0E91F42CEA800A5364B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F457E0E81F42CEA800A5364B /* CoreMedia.framework */; };
+		F457E0EB1F42CEB100A5364B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F457E0EA1F42CEB100A5364B /* CoreVideo.framework */; };
+		F457E0ED1F42CEC000A5364B /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F457E0EC1F42CEC000A5364B /* libbz2.tbd */; };
+		F457E0EF1F42CECB00A5364B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F457E0EE1F42CECB00A5364B /* libz.tbd */; };
+		F457E0F11F42CED200A5364B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F457E0F01F42CED200A5364B /* MediaPlayer.framework */; };
+		F457E0F31F42CEDD00A5364B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F457E0F21F42CEDD00A5364B /* MobileCoreServices.framework */; };
+		F457E0F51F42CEE700A5364B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F457E0F41F42CEE700A5364B /* OpenGLES.framework */; };
+		F457E0F71F42CEF500A5364B /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F457E0F61F42CEF500A5364B /* VideoToolbox.framework */; };
+		F457E0F91F42CF1D00A5364B /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F457E0F81F42CF1D00A5364B /* IJKMediaFramework.framework */; };
+		F457E1001F42E74600A5364B /* LiveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E0FF1F42E74600A5364B /* LiveListViewController.m */; };
+		F457E1031F42EC1000A5364B /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E1021F42EC1000A5364B /* RequestManager.m */; };
+		F457E1061F42F29E00A5364B /* LJLiveListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E1051F42F29E00A5364B /* LJLiveListModel.m */; };
+		F457E1091F43D22000A5364B /* LJCreatorItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E1081F43D22000A5364B /* LJCreatorItem.m */; };
+		F457E10D1F43D7E300A5364B /* YZLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E10B1F43D7E300A5364B /* YZLiveCell.m */; };
+		F457E10E1F43D7E300A5364B /* YZLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F457E10C1F43D7E300A5364B /* YZLiveCell.xib */; };
+		F457E1181F43E92500A5364B /* LJLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F457E1171F43E92500A5364B /* LJLiveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,23 +74,78 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E19C8CADBD65AFDA6E3E87B /* Pods-LJLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJLive/Pods-LJLive.debug.xcconfig"; sourceTree = "<group>"; };
+		BD62D13C962E5CC3444E870B /* Pods-LJLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJLive/Pods-LJLive.release.xcconfig"; sourceTree = "<group>"; };
+		C213BA297DE9E17B72382709 /* libPods-LJLive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJLive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F457E0181F3BED2100A5364B /* LJLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F457E01C1F3BED2100A5364B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F457E01E1F3BED2100A5364B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F457E01F1F3BED2100A5364B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F457E0211F3BED2100A5364B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F457E0221F3BED2100A5364B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F457E01E1F3BED2100A5364B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		F457E01F1F3BED2100A5364B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		F457E0251F3BED2100A5364B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F457E0281F3BED2100A5364B /* LJLive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LJLive.xcdatamodel; sourceTree = "<group>"; };
-		F457E02A1F3BED2100A5364B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F457E02A1F3BED2100A5364B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		F457E02D1F3BED2100A5364B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F457E02F1F3BED2100A5364B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F457E02F1F3BED2100A5364B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		F457E0341F3BED2200A5364B /* LJLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F457E0381F3BED2200A5364B /* LJLiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJLiveTests.m; sourceTree = "<group>"; };
 		F457E03A1F3BED2200A5364B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F457E03F1F3BED2200A5364B /* LJLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F457E0431F3BED2200A5364B /* LJLiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJLiveUITests.m; sourceTree = "<group>"; };
 		F457E0451F3BED2200A5364B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F457E0521F3BEFC400A5364B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F457E0531F3BEFC400A5364B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F457E0561F3BF0BE00A5364B /* LJLivePCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJLivePCH.pch; sourceTree = "<group>"; };
+		F457E0581F3BF76E00A5364B /* Function.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Function.rtf; sourceTree = "<group>"; };
+		F457E05A1F3BF7F000A5364B /* MacroConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroConst.h; sourceTree = "<group>"; };
+		F457E0611F3C01A900A5364B /* CTNavigatonBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTNavigatonBarView.h; sourceTree = "<group>"; };
+		F457E0621F3C01A900A5364B /* CTNavigatonBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTNavigatonBarView.m; sourceTree = "<group>"; };
+		F457E0631F3C01A900A5364B /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		F457E0641F3C01A900A5364B /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		F457E0671F3C02E900A5364B /* CommUtls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommUtls.h; sourceTree = "<group>"; };
+		F457E0681F3C02E900A5364B /* CommUtls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommUtls.m; sourceTree = "<group>"; };
+		F457E06C1F3C04AB00A5364B /* HUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDManager.h; sourceTree = "<group>"; };
+		F457E06D1F3C04AB00A5364B /* HUDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDManager.m; sourceTree = "<group>"; };
+		F457E06E1F3C04AB00A5364B /* jg_hud_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jg_hud_error.png; sourceTree = "<group>"; };
+		F457E06F1F3C04AB00A5364B /* jg_hud_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jg_hud_error@2x.png"; sourceTree = "<group>"; };
+		F457E0701F3C04AB00A5364B /* jg_hud_error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jg_hud_error@3x.png"; sourceTree = "<group>"; };
+		F457E0711F3C04AB00A5364B /* jg_hud_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jg_hud_success.png; sourceTree = "<group>"; };
+		F457E0721F3C04AB00A5364B /* jg_hud_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jg_hud_success@2x.png"; sourceTree = "<group>"; };
+		F457E0731F3C04AB00A5364B /* jg_hud_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jg_hud_success@3x.png"; sourceTree = "<group>"; };
+		F457E0741F3C04AB00A5364B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F457E0751F3C04AB00A5364B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F457E0761F3C04AB00A5364B /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		F457E0801F3C04CA00A5364B /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		F457E0821F3C04F300A5364B /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		F457E0841F3C050E00A5364B /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		F457E0861F3C052800A5364B /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		F457E0CD1F42C5F800A5364B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F457E0CE1F42C5F800A5364B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F457E0D31F42C60100A5364B /* PersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		F457E0D41F42C60100A5364B /* PersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		F457E0E41F42CE8700A5364B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F457E0E61F42CE9A00A5364B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F457E0E81F42CEA800A5364B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F457E0EA1F42CEB100A5364B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F457E0EC1F42CEC000A5364B /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		F457E0EE1F42CECB00A5364B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F457E0F01F42CED200A5364B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F457E0F21F42CEDD00A5364B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F457E0F41F42CEE700A5364B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F457E0F61F42CEF500A5364B /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		F457E0F81F42CF1D00A5364B /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = LJLive/Classes/Frameworks/IJKMediaFramework.framework; sourceTree = "<group>"; };
+		F457E0FE1F42E74600A5364B /* LiveListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveListViewController.h; sourceTree = "<group>"; };
+		F457E0FF1F42E74600A5364B /* LiveListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveListViewController.m; sourceTree = "<group>"; };
+		F457E1011F42EC1000A5364B /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		F457E1021F42EC1000A5364B /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		F457E1041F42F29E00A5364B /* LJLiveListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJLiveListModel.h; sourceTree = "<group>"; };
+		F457E1051F42F29E00A5364B /* LJLiveListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJLiveListModel.m; sourceTree = "<group>"; };
+		F457E1071F43D22000A5364B /* LJCreatorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJCreatorItem.h; sourceTree = "<group>"; };
+		F457E1081F43D22000A5364B /* LJCreatorItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJCreatorItem.m; sourceTree = "<group>"; };
+		F457E10A1F43D7E300A5364B /* YZLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZLiveCell.h; sourceTree = "<group>"; };
+		F457E10B1F43D7E300A5364B /* YZLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZLiveCell.m; sourceTree = "<group>"; };
+		F457E10C1F43D7E300A5364B /* YZLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZLiveCell.xib; sourceTree = "<group>"; };
+		F457E1161F43E92500A5364B /* LJLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJLiveViewController.h; sourceTree = "<group>"; };
+		F457E1171F43E92500A5364B /* LJLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJLiveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +153,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F457E0F71F42CEF500A5364B /* VideoToolbox.framework in Frameworks */,
+				F457E0F51F42CEE700A5364B /* OpenGLES.framework in Frameworks */,
+				F457E0F31F42CEDD00A5364B /* MobileCoreServices.framework in Frameworks */,
+				F457E0F91F42CF1D00A5364B /* IJKMediaFramework.framework in Frameworks */,
+				F457E0F11F42CED200A5364B /* MediaPlayer.framework in Frameworks */,
+				F457E0EF1F42CECB00A5364B /* libz.tbd in Frameworks */,
+				F457E0ED1F42CEC000A5364B /* libbz2.tbd in Frameworks */,
+				F457E0EB1F42CEB100A5364B /* CoreVideo.framework in Frameworks */,
+				F457E0E91F42CEA800A5364B /* CoreMedia.framework in Frameworks */,
+				F457E0E71F42CE9A00A5364B /* AudioToolbox.framework in Frameworks */,
+				F457E0E51F42CE8700A5364B /* AVFoundation.framework in Frameworks */,
+				3246A5CF305EF47C2465BEDB /* libPods-LJLive.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +185,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CA5201B5F002E61589392C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E19C8CADBD65AFDA6E3E87B /* Pods-LJLive.debug.xcconfig */,
+				BD62D13C962E5CC3444E870B /* Pods-LJLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFE16AC0BCA0FEF015302857 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F457E0F81F42CF1D00A5364B /* IJKMediaFramework.framework */,
+				F457E0F61F42CEF500A5364B /* VideoToolbox.framework */,
+				F457E0F41F42CEE700A5364B /* OpenGLES.framework */,
+				F457E0F21F42CEDD00A5364B /* MobileCoreServices.framework */,
+				F457E0F01F42CED200A5364B /* MediaPlayer.framework */,
+				F457E0EE1F42CECB00A5364B /* libz.tbd */,
+				F457E0EC1F42CEC000A5364B /* libbz2.tbd */,
+				F457E0EA1F42CEB100A5364B /* CoreVideo.framework */,
+				F457E0E81F42CEA800A5364B /* CoreMedia.framework */,
+				F457E0E61F42CE9A00A5364B /* AudioToolbox.framework */,
+				F457E0E41F42CE8700A5364B /* AVFoundation.framework */,
+				C213BA297DE9E17B72382709 /* libPods-LJLive.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F457E00F1F3BED2100A5364B = {
 			isa = PBXGroup;
 			children = (
 				F457E01A1F3BED2100A5364B /* LJLive */,
+				F457E05B1F3BFB0800A5364B /* System */,
 				F457E0371F3BED2200A5364B /* LJLiveTests */,
 				F457E0421F3BED2200A5364B /* LJLiveUITests */,
 				F457E0191F3BED2100A5364B /* Products */,
+				0CA5201B5F002E61589392C6 /* Pods */,
+				DFE16AC0BCA0FEF015302857 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +239,11 @@
 		F457E01A1F3BED2100A5364B /* LJLive */ = {
 			isa = PBXGroup;
 			children = (
-				F457E01E1F3BED2100A5364B /* AppDelegate.h */,
-				F457E01F1F3BED2100A5364B /* AppDelegate.m */,
-				F457E0211F3BED2100A5364B /* ViewController.h */,
-				F457E0221F3BED2100A5364B /* ViewController.m */,
-				F457E0241F3BED2100A5364B /* Main.storyboard */,
-				F457E02A1F3BED2100A5364B /* Assets.xcassets */,
-				F457E02C1F3BED2100A5364B /* LaunchScreen.storyboard */,
-				F457E02F1F3BED2100A5364B /* Info.plist */,
-				F457E0271F3BED2100A5364B /* LJLive.xcdatamodeld */,
+				F457E06A1F3C04AB00A5364B /* Library */,
+				F457E05C1F3BFD4500A5364B /* Classes */,
+				F457E0571F3BF73000A5364B /* Function */,
+				F457E0551F3BF09600A5364B /* Global */,
+				F457E0511F3BEFB100A5364B /* Root */,
 				F457E01B1F3BED2100A5364B /* Supporting Files */,
 			);
 			path = LJLive;
@@ -143,6 +275,243 @@
 			path = LJLiveUITests;
 			sourceTree = "<group>";
 		};
+		F457E0511F3BEFB100A5364B /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				F457E0861F3C052800A5364B /* read_me.txt */,
+				F457E0601F3C01A900A5364B /* Navigation */,
+				F457E0521F3BEFC400A5364B /* BaseViewController.h */,
+				F457E0531F3BEFC400A5364B /* BaseViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		F457E0551F3BF09600A5364B /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				F457E0841F3C050E00A5364B /* read_me.txt */,
+				F457E0561F3BF0BE00A5364B /* LJLivePCH.pch */,
+				F457E05A1F3BF7F000A5364B /* MacroConst.h */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		F457E0571F3BF73000A5364B /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				F457E1011F42EC1000A5364B /* RequestManager.h */,
+				F457E1021F42EC1000A5364B /* RequestManager.m */,
+				F457E0671F3C02E900A5364B /* CommUtls.h */,
+				F457E0681F3C02E900A5364B /* CommUtls.m */,
+				F457E0581F3BF76E00A5364B /* Function.rtf */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		F457E05B1F3BFB0800A5364B /* System */ = {
+			isa = PBXGroup;
+			children = (
+				F457E0821F3C04F300A5364B /* read_me.txt */,
+				F457E01E1F3BED2100A5364B /* AppDelegate.h */,
+				F457E01F1F3BED2100A5364B /* AppDelegate.m */,
+				F457E0241F3BED2100A5364B /* Main.storyboard */,
+				F457E02A1F3BED2100A5364B /* Assets.xcassets */,
+				F457E02C1F3BED2100A5364B /* LaunchScreen.storyboard */,
+				F457E02F1F3BED2100A5364B /* Info.plist */,
+				F457E0271F3BED2100A5364B /* LJLive.xcdatamodeld */,
+			);
+			name = System;
+			path = LJLive/System;
+			sourceTree = "<group>";
+		};
+		F457E05C1F3BFD4500A5364B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F457E10F1F43E89B00A5364B /* Live */,
+				F457E0FA1F42E73400A5364B /* LiveList */,
+				F457E0C41F42C5B700A5364B /* Home */,
+				F457E0C71F42C5B700A5364B /* Personal */,
+				F457E0801F3C04CA00A5364B /* read_me.txt */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F457E0601F3C01A900A5364B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F457E0611F3C01A900A5364B /* CTNavigatonBarView.h */,
+				F457E0621F3C01A900A5364B /* CTNavigatonBarView.m */,
+				F457E0631F3C01A900A5364B /* RootNavigationController.h */,
+				F457E0641F3C01A900A5364B /* RootNavigationController.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F457E06A1F3C04AB00A5364B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F457E06B1F3C04AB00A5364B /* MBProgressHUD */,
+				F457E0761F3C04AB00A5364B /* read_me.txt */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		F457E06B1F3C04AB00A5364B /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F457E06C1F3C04AB00A5364B /* HUDManager.h */,
+				F457E06D1F3C04AB00A5364B /* HUDManager.m */,
+				F457E06E1F3C04AB00A5364B /* jg_hud_error.png */,
+				F457E06F1F3C04AB00A5364B /* jg_hud_error@2x.png */,
+				F457E0701F3C04AB00A5364B /* jg_hud_error@3x.png */,
+				F457E0711F3C04AB00A5364B /* jg_hud_success.png */,
+				F457E0721F3C04AB00A5364B /* jg_hud_success@2x.png */,
+				F457E0731F3C04AB00A5364B /* jg_hud_success@3x.png */,
+				F457E0741F3C04AB00A5364B /* MBProgressHUD.h */,
+				F457E0751F3C04AB00A5364B /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		F457E0C41F42C5B700A5364B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F457E0CC1F42C5F800A5364B /* Controller */,
+				F457E0CF1F42C5F800A5364B /* Model */,
+				F457E0D01F42C5F800A5364B /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F457E0C71F42C5B700A5364B /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				F457E0D21F42C60100A5364B /* Controller */,
+				F457E0D51F42C60100A5364B /* Model */,
+				F457E0D61F42C60100A5364B /* View */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		F457E0CC1F42C5F800A5364B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F457E0CD1F42C5F800A5364B /* HomeViewController.h */,
+				F457E0CE1F42C5F800A5364B /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F457E0CF1F42C5F800A5364B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F457E0D01F42C5F800A5364B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F457E0D21F42C60100A5364B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F457E0D31F42C60100A5364B /* PersonalViewController.h */,
+				F457E0D41F42C60100A5364B /* PersonalViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F457E0D51F42C60100A5364B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F457E0D61F42C60100A5364B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F457E0FA1F42E73400A5364B /* LiveList */ = {
+			isa = PBXGroup;
+			children = (
+				F457E0FB1F42E73400A5364B /* Controller */,
+				F457E0FC1F42E73400A5364B /* Model */,
+				F457E0FD1F42E73400A5364B /* View */,
+			);
+			path = LiveList;
+			sourceTree = "<group>";
+		};
+		F457E0FB1F42E73400A5364B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F457E0FE1F42E74600A5364B /* LiveListViewController.h */,
+				F457E0FF1F42E74600A5364B /* LiveListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F457E0FC1F42E73400A5364B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F457E1041F42F29E00A5364B /* LJLiveListModel.h */,
+				F457E1051F42F29E00A5364B /* LJLiveListModel.m */,
+				F457E1071F43D22000A5364B /* LJCreatorItem.h */,
+				F457E1081F43D22000A5364B /* LJCreatorItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F457E0FD1F42E73400A5364B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F457E10A1F43D7E300A5364B /* YZLiveCell.h */,
+				F457E10B1F43D7E300A5364B /* YZLiveCell.m */,
+				F457E10C1F43D7E300A5364B /* YZLiveCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F457E10F1F43E89B00A5364B /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				F457E1101F43E89B00A5364B /* Controller */,
+				F457E1111F43E89B00A5364B /* Model */,
+				F457E1121F43E89B00A5364B /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		F457E1101F43E89B00A5364B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F457E1161F43E92500A5364B /* LJLiveViewController.h */,
+				F457E1171F43E92500A5364B /* LJLiveViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F457E1111F43E89B00A5364B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F457E1121F43E89B00A5364B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +519,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F457E0481F3BED2200A5364B /* Build configuration list for PBXNativeTarget "LJLive" */;
 			buildPhases = (
+				48B8C1F57ED30664CA826F43 /* [CP] Check Pods Manifest.lock */,
 				F457E0141F3BED2100A5364B /* Sources */,
 				F457E0151F3BED2100A5364B /* Frameworks */,
 				F457E0161F3BED2100A5364B /* Resources */,
+				606E0860EDB8DFB2EB5743E0 /* [CP] Embed Pods Frameworks */,
+				3CA1424A4AB288B7B544894B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,6 +582,7 @@
 				TargetAttributes = {
 					F457E0171F3BED2100A5364B = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QJRUZXRZDN;
 						ProvisioningStyle = Automatic;
 					};
 					F457E0331F3BED2200A5364B = {
@@ -249,8 +622,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F457E07D1F3C04AB00A5364B /* jg_hud_success@3x.png in Resources */,
+				F457E07A1F3C04AB00A5364B /* jg_hud_error@3x.png in Resources */,
+				F457E10E1F43D7E300A5364B /* YZLiveCell.xib in Resources */,
+				F457E0791F3C04AB00A5364B /* jg_hud_error@2x.png in Resources */,
+				F457E0781F3C04AB00A5364B /* jg_hud_error.png in Resources */,
+				F457E0871F3C052800A5364B /* read_me.txt in Resources */,
+				F457E0591F3BF76F00A5364B /* Function.rtf in Resources */,
 				F457E02E1F3BED2100A5364B /* LaunchScreen.storyboard in Resources */,
+				F457E0851F3C050E00A5364B /* read_me.txt in Resources */,
+				F457E0831F3C04F300A5364B /* read_me.txt in Resources */,
 				F457E02B1F3BED2100A5364B /* Assets.xcassets in Resources */,
+				F457E07B1F3C04AB00A5364B /* jg_hud_success.png in Resources */,
+				F457E07F1F3C04AB00A5364B /* read_me.txt in Resources */,
+				F457E07C1F3C04AB00A5364B /* jg_hud_success@2x.png in Resources */,
+				F457E0811F3C04CA00A5364B /* read_me.txt in Resources */,
 				F457E0261F3BED2100A5364B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,15 +657,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CA1424A4AB288B7B544894B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJLive/Pods-LJLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48B8C1F57ED30664CA826F43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		606E0860EDB8DFB2EB5743E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJLive/Pods-LJLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F457E0141F3BED2100A5364B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F457E0231F3BED2100A5364B /* ViewController.m in Sources */,
+				F457E0541F3BEFC400A5364B /* BaseViewController.m in Sources */,
+				F457E0691F3C02E900A5364B /* CommUtls.m in Sources */,
+				F457E1091F43D22000A5364B /* LJCreatorItem.m in Sources */,
 				F457E0291F3BED2100A5364B /* LJLive.xcdatamodeld in Sources */,
+				F457E0D11F42C5F800A5364B /* HomeViewController.m in Sources */,
+				F457E1181F43E92500A5364B /* LJLiveViewController.m in Sources */,
+				F457E0661F3C01A900A5364B /* RootNavigationController.m in Sources */,
 				F457E0201F3BED2100A5364B /* AppDelegate.m in Sources */,
+				F457E1001F42E74600A5364B /* LiveListViewController.m in Sources */,
+				F457E1061F42F29E00A5364B /* LJLiveListModel.m in Sources */,
+				F457E0771F3C04AB00A5364B /* HUDManager.m in Sources */,
+				F457E10D1F43D7E300A5364B /* YZLiveCell.m in Sources */,
+				F457E1031F42EC1000A5364B /* RequestManager.m in Sources */,
+				F457E0651F3C01A900A5364B /* CTNavigatonBarView.m in Sources */,
+				F457E07E1F3C04AB00A5364B /* MBProgressHUD.m in Sources */,
 				F457E01D1F3BED2100A5364B /* main.m in Sources */,
+				F457E0D71F42C60100A5364B /* PersonalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +768,7 @@
 				F457E0251F3BED2100A5364B /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		F457E02C1F3BED2100A5364B /* LaunchScreen.storyboard */ = {
@@ -329,6 +777,7 @@
 				F457E02D1F3BED2100A5364B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -428,9 +877,19 @@
 		};
 		F457E0491F3BED2200A5364B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E19C8CADBD65AFDA6E3E87B /* Pods-LJLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QJRUZXRZDN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LJLive/Library",
+					"$(PROJECT_DIR)/LJLive/Classes/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LJLive/Global/LJLivePCH.pch";
 				INFOPLIST_FILE = LJLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LJLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,9 +898,19 @@
 		};
 		F457E04A1F3BED2200A5364B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD62D13C962E5CC3444E870B /* Pods-LJLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QJRUZXRZDN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LJLive/Library",
+					"$(PROJECT_DIR)/LJLive/Classes/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LJLive/Global/LJLivePCH.pch";
 				INFOPLIST_FILE = LJLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LJLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +982,7 @@
 				F457E04A1F3BED2200A5364B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F457E04B1F3BED2200A5364B /* Build configuration list for PBXNativeTarget "LJLiveTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +991,7 @@
 				F457E04D1F3BED2200A5364B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F457E04E1F3BED2200A5364B /* Build configuration list for PBXNativeTarget "LJLiveUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +1000,7 @@
 				F457E0501F3BED2200A5364B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -539,7 +1011,8 @@
 				F457E0281F3BED2100A5364B /* LJLive.xcdatamodel */,
 			);
 			currentVersion = F457E0281F3BED2100A5364B /* LJLive.xcdatamodel */;
-			path = LJLive.xcdatamodeld;
+			name = LJLive.xcdatamodeld;
+			path = ../LJLive.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
